@@ -13,4 +13,4 @@ Should be run at startup.
 * SMTPUsername - Username for SMTP authentication. Leave as an empty string if authentication is not needed.
 * SMTPPassword - Password for SMTP authentication.
 * EMAILFrom - What to put in the From header of the email.
-* EmailTo - Who to send the email to.
+* EMAILTo - Who to send the email to.
