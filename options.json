@@ -2,7 +2,6 @@
     "interval_seconds" : "900",
     "ck_page" : "http://www.csl.mtu.edu/cs3331.ck/www/info.html",
     "cached_page_name" : "cached_webpage.html",
-    "line_endings" : "CRLF",
     "notify" : ["email"],
     "SMTPHost" : "",
     "SMTPPort" : "",

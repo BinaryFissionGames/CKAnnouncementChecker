@@ -10,10 +10,6 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 options_file = io.open('options.json')
 options = json.loads(''.join(options_file.readlines()))
 options_file.close()
-line_ending = '\n'
-
-if options['line_endings'] == 'CRLF':
-    line_ending = '\r\n'
 
 scheduler = BlockingScheduler()
 #load ssl context for emails
