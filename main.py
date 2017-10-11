@@ -28,7 +28,7 @@ def notify():
         msg['To'] = options['EMAILTo']
 
         smtp = smtplib.SMTP_SSL(host=options['SMTPHost'], port=options['SMTPPort'], context=ssl_context)
-        if options['SMTPUsername']:
+        if options['SMTPUsername'] != '':
             try:
                 smtp.login(options['SMTPUsername'], options['SMTPPassword'])
             except smtplib.SMTPAuthenticationError:
