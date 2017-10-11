@@ -58,6 +58,8 @@ def timed_job():
         notify()
 
 scheduler.add_job(timed_job, 'interval', seconds=int(options['interval_seconds']))
+#Execute the job after starting, instead of waiting an interval for the first time.
+timed_job()
 
 try:
     scheduler.start()
