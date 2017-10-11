@@ -1,4 +1,4 @@
-# CK Announcment Checker
+# CK Announcement Checker
 
 This python script checks CK's site (or any site, really) to see if it changes, then emails the user if it does.
 Should be run at startup.
